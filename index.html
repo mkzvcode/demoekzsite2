@@ -16,10 +16,10 @@
             <ul class="navigation-list">
                 <li><a class="navigation-link active" href="#home" aria-current="page">Home</a></li>
                 <li><a class="navigation-link" href="#about">About Us</a></li>
-                <li><span class="navigation-link">Services</span></li>
-                <li><span class="navigation-link">Our Teams</span></li>
+                <li><a class="navigation-link" href="#services">Services</a></li>
+                <li><a class="navigation-link" href="#team">Our Teams</a></li>
             </ul>
-            <button class="button" type="button">Contact Us</button>
+            <a class="button" href="#contact">Contact Us</a>
         </nav>
     </header>
 
@@ -49,7 +49,7 @@
             <h2 id="about-title">“We're one of the best furniture agency. Prioritizing customers and making purchases easy are the hallmarks of our agency.”</h2>
             <div class="about-content">
                 <img class="about-image" src="./assets/image/stol.png" width="883" height="525" alt="Minimalist dining room with a wooden table and an open kitchen">
-                <div class="author">
+                <div class="author" id="team">
                     <img class="author-photo" src="./assets/image/arga-danaan.png" width="51" height="56" alt="Arga Danaan">
                     <div>
                         <p class="author-name">Arga Danaan</p>
@@ -58,10 +58,143 @@
                 </div>
                 <div class="about-description">
                     <p>Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.</p>
-                    <button class="button" type="button">Learn More</button>
+                    <a class="button" href="#services">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services" aria-labelledby="services-title">
+            <div class="services-card">
+                <p class="section-label">SERVICE</p>
+                <h2 class="section-title" id="services-title">attractive furniture with the best quality.</h2>
+                <p class="services-description">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
+                <ol class="services-list">
+                    <li>
+                        <a href="#product">
+                            <span class="service-number">01</span>
+                            <h3>Interior Design</h3>
+                            <img src="./assets/image/icons/arrow-right.svg" width="32" height="32" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#product">
+                            <span class="service-number">02</span>
+                            <h3>Consultant</h3>
+                            <img src="./assets/image/icons/arrow-right.svg" width="32" height="32" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#product">
+                            <span class="service-number">03</span>
+                            <h3>Construction Consultant</h3>
+                            <img src="./assets/image/icons/arrow-right.svg" width="32" height="32" alt="">
+                        </a>
+                    </li>
+                </ol>
+            </div>
+            <img class="services-image" src="./assets/image/stol2.png" width="1076" height="525" alt="Living room with an orange sofa, armchairs and natural wood finishes">
+        </section>
+
+        <section class="product" id="product" aria-labelledby="product-title">
+            <p class="section-label">PRODUCT</p>
+            <div class="product-heading">
+                <h2 class="section-title" id="product-title">Choose your<br>product themes.</h2>
+                <p>Find the theme you want. If our choice of theme is not what you want, you can customize it as you want.</p>
+            </div>
+            <ol class="product-list">
+                <li>
+                    <a href="#material">
+                        <span class="product-number">01</span>
+                        <div>
+                            <h3>Vintage</h3>
+                            <p>the use of simple and limited elements to get the best effect or impression.</p>
+                        </div>
+                        <img src="./assets/image/icons/arrow-right.svg" width="32" height="32" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#material">
+                        <span class="product-number">02</span>
+                        <div>
+                            <h3>Minimalist</h3>
+                            <p>the use of simple and limited elements to get the best effect or impression.</p>
+                        </div>
+                        <img src="./assets/image/icons/arrow-right.svg" width="32" height="32" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#material">
+                        <span class="product-number">03</span>
+                        <div>
+                            <h3>Modern</h3>
+                            <p>the use of simple and limited elements to get the best effect or impression.</p>
+                        </div>
+                        <img src="./assets/image/icons/arrow-right.svg" width="32" height="32" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#material">
+                        <span class="product-number">03</span>
+                        <div>
+                            <h3>transitional</h3>
+                            <p>the use of simple and limited elements to get the best effect or impression.</p>
+                        </div>
+                        <img src="./assets/image/icons/arrow-right.svg" width="32" height="32" alt="">
+                    </a>
+                </li>
+            </ol>
+        </section>
+
+        <section class="material" id="material" aria-labelledby="material-title">
+            <div class="material-content">
+                <p class="section-label">MATERIAL</p>
+                <h2 class="section-title" id="material-title">choice of<br>materials for<br>quality furniture.</h2>
+                <p class="material-description">You can custom the material as desired. And our furniture uses the best materials and selected quality materials.</p>
+                <a class="button button-outline" href="#material-gallery">See Materials</a>
+            </div>
+            <div class="material-gallery" id="material-gallery">
+                <img class="material-wood" src="./assets/image/item2.png" width="342" height="392" alt="Samples of wood finishes for furniture">
+                <div class="material-samples">
+                    <img src="./assets/image/item3.png" width="241" height="225" alt="Crafting a wood and resin tabletop">
+                    <img src="./assets/image/item1.png" width="195" height="178" alt="Green textured material and white decorative stones">
                 </div>
             </div>
         </section>
     </main>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-content container">
+            <h2 class="section-title" id="contact-title">let's discuss making your interior like a dream place!</h2>
+            <div class="contact-description">
+                <p>Contact us below to work together to build your amazing interior</p>
+                <a class="button button-light" href="#newsletter">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="footer-brand">
+            <a class="logo" href="#home" aria-label="Dananz home"><img src="./assets/image/logo.png" width="126" height="54" alt="Dananz"></a>
+            <p>One of the best furniture agency.</p>
+        </div>
+        <div class="footer-right">
+            <form class="newsletter" id="newsletter">
+                <label for="newsletter-email">Enter your email to get the latest news</label>
+                <div class="newsletter-field">
+                    <input id="newsletter-email" type="email" placeholder="Email Address" autocomplete="email">
+                    <button type="button" aria-label="Subscribe to the newsletter"><img src="./assets/image/icons/newsletter-arrow.svg" alt=""></button>
+                </div>
+            </form>
+            <div class="socials">
+                <p>Follow us On</p>
+                <div class="socials-list">
+                    <button type="button" aria-label="Facebook"><img src="./assets/image/icons/facebook.svg" width="24" height="24" alt=""></button>
+                    <button type="button" aria-label="Instagram"><img src="./assets/image/icons/instagram.svg" width="24" height="24" alt=""></button>
+                    <button type="button" aria-label="TikTok"><img src="./assets/image/icons/tiktok.svg" width="24" height="24" alt=""></button>
+                    <button type="button" aria-label="YouTube"><img src="./assets/image/icons/youtube.svg" width="24" height="24" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
